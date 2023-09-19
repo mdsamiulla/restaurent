@@ -1,0 +1,126 @@
+body{
+
+    /* color of texts and style of texts */
+
+    font-family: latha;
+    color:black; 
+    background: 
+        url(https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyeWFuaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=2500&q=60)no-repeat;
+}
+.box{
+
+    /* navigation menu box */
+    
+    width: 900px;
+    float: right;
+    border: 1px solid none;
+}
+
+.box ul li {
+
+    /* navigation menu list and styles*/
+        width: 120px;
+float: left;
+margin: 10px auto;
+text-align: center;
+}
+
+.box ul li a{
+
+    /* nav links and anchor tag styles  */
+    
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+/* cursor hover on nav tags */
+.box ul li:hover {background-color: aquamarine;}
+.box ul li a:hover{color: burlywood;}
+
+.width{
+
+    /* welcome text black box */
+    
+    width: 300px;
+    height: 1000px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+
+.width h1{
+
+    /* welcome greeting */
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+    color: azure;
+}
+
+.width h4{
+
+    /* welcome text style*/
+    
+    text-align: justify;
+    color: darkgray;
+    font-weight: normal;
+}
+
+h5{
+
+    /* thank you text */
+    
+    text-align: justify;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+}
+
+h2{
+
+    /* reservation text style */
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+}
+
+.opt form , input[type="button"]{
+
+    /* start now btn style */
+
+    background-color: black ;
+    color: white;
+    padding: 10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+footer{
+
+    /* footer style (contact us) */
+    
+    text-align: left;
+    color: azure;
+    font-size: 15px;
+}
+
+.post form{
+
+    /* online order form style */
+    
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin: -14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    opacity: 0.5;
+    float: left;
+
+}
